@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using TextPrivacy.SensitiveString.EntityFrameworkCore;
 
-namespace SensitiveString.EntityFrameworkCore.Examples;
+namespace TextPrivacy.SensitiveString.EntityFrameworkCore.Examples;
 
 public class MyDbContext : DbContext
 {
