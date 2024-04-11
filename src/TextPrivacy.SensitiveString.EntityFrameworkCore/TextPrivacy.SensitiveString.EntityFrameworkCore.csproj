@@ -46,7 +46,7 @@
 
         <PackageReleaseNotes>This is an initial package release. All comments and suggestions are warmly welcomed and encouraged to be reported as issues on GitHub. Your input is highly valued to help refine and improve this offering.
 
-            See also https://github.com/$(Repository)/releases</PackageReleaseNotes>
+See also https://github.com/$(Repository)/releases</PackageReleaseNotes>
     </PropertyGroup>
 
     <PropertyGroup Condition="'$(Configuration)' == 'Publish'">
