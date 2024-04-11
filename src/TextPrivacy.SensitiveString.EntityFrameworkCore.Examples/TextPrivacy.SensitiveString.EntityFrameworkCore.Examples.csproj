@@ -5,7 +5,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\src\TextPrivacy.SensitiveString.EntityFrameworkCore\TextPrivacy.SensitiveString.EntityFrameworkCore.csproj" />
+      <ProjectReference Include="..\TextPrivacy.SensitiveString.EntityFrameworkCore\TextPrivacy.SensitiveString.EntityFrameworkCore.csproj" />
     </ItemGroup>
 
 </Project>

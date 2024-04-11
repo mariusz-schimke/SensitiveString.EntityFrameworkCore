@@ -4,7 +4,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextPrivacy.SensitiveString
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{21EB174C-CED8-40DB-AD4E-E3BF9D9D3EC7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextPrivacy.SensitiveString.EntityFrameworkCore.Examples", "TextPrivacy.SensitiveString.EntityFrameworkCore.Examples\TextPrivacy.SensitiveString.EntityFrameworkCore.Examples.csproj", "{A9D7BAA3-9D50-450E-A34C-212A520B629E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextPrivacy.SensitiveString.EntityFrameworkCore.Examples", "src\TextPrivacy.SensitiveString.EntityFrameworkCore.Examples\TextPrivacy.SensitiveString.EntityFrameworkCore.Examples.csproj", "{A9D7BAA3-9D50-450E-A34C-212A520B629E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
