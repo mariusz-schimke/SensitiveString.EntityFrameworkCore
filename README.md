@@ -5,3 +5,17 @@ This package extends [SensitiveString](https://www.nuget.org/packages/SensitiveS
 
 ## Example
 
+```c#
+using Microsoft.EntityFrameworkCore;
+using TextPrivacy.SensitiveString.EntityFrameworkCore;
+
+public class MyDbContext : DbContext
+{
+    protected override void ConfigureConventions(ModelConfigurationBuilder builder)
+    {
+        base.ConfigureConventions(builder);
+        builder.AddSensitiveStringSupport();
+    }
+}
+```
+
