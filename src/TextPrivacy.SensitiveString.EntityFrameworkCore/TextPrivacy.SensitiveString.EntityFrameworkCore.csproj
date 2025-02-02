@@ -3,7 +3,6 @@
     <!-- https://www.meziantou.net/creating-reproducible-build-in-dotnet.htm -->
 
     <PropertyGroup>
-        <TargetFramework>net8.0</TargetFramework>
         <Configurations>Debug;Release;Publish</Configurations>
         <Platforms>AnyCPU</Platforms>
 
@@ -20,7 +19,7 @@
 
         <Deterministic>true</Deterministic>
 
-        <Version>0.1.2</Version>
+        <Version>0.1.3</Version>
         <IncludeSourceRevisionInInformationalVersion>true</IncludeSourceRevisionInInformationalVersion>
 
         <PackageId>SensitiveString.EntityFrameworkCore</PackageId>
@@ -28,7 +27,7 @@
         <Product>SensitiveString.EntityFrameworkCore</Product>
         <Description>This package extends SensitiveString to seamlessly integrate it with EntityFrameworkCore entities.</Description>
         <Authors>Mariusz Schimke</Authors>
-        <Copyright>Copyright © 2024 Mariusz Schimke</Copyright>
+        <Copyright>Copyright © 2024-2025 Mariusz Schimke</Copyright>
         <PackageTags>sensitive strings privacy efcore entityframeworkcore</PackageTags>
 
         <PackageProjectUrl>https://github.com/$(Repository)</PackageProjectUrl>
